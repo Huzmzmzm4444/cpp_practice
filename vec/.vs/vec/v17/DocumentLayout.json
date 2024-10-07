@@ -1,0 +1,38 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\projects\\vec\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A28EAB3-B265-4A64-B8F7-7E3DF8C3D04D}|vec.vcxproj|C:\\Users\\ASUS\\Desktop\\projects\\vec\\vec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A28EAB3-B265-4A64-B8F7-7E3DF8C3D04D}|vec.vcxproj|solutionrelative:vec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vec.cpp",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\projects\\vec\\vec.cpp",
+              "RelativeDocumentMoniker": "vec.cpp",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\projects\\vec\\vec.cpp",
+              "RelativeToolTip": "vec.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-03T06:33:18.648Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

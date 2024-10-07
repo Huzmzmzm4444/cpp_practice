@@ -1,0 +1,5 @@
+﻿  vec.cpp
+C:\Users\ASUS\Desktop\projects\vec\vec.cpp(111,23): error C2429: для функция языка "структурированные привязки" нужен флаг компилятора "/std:c++17" 
+C:\Users\ASUS\Desktop\projects\vec\vec.cpp(113,36): error C2593: неоднозначный "оператор <<"
+C:\Users\ASUS\Desktop\projects\vec\vec.cpp(129,23): error C2429: для функция языка "структурированные привязки" нужен флаг компилятора "/std:c++17" 
+C:\Users\ASUS\Desktop\projects\vec\vec.cpp(131,36): error C2593: неоднозначный "оператор <<"
