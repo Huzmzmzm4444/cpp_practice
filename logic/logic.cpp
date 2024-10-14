@@ -108,27 +108,42 @@ int main() {
     Element and1{ Operation::and_op };
     Element and2{ Operation::and_op, SignalState::inverted };
     Element or1{ Operation::or_op };
+    Element src3{ SourceState::off };
+    Element src4{ SourceState::off };
+    
 
  
     src1 >> and1; 
     src2 >> and1; 
     and1 >> and2; 
     src1 >> or1; 
-    src2 >> or1;  
+    src2 >> or1; 
+
+    src3 >> and2; 
+    src4 >> and2;
 
     
-    std::cout << "src1: " << src1.signal() << ", src2: " << src2.signal()
-        << ", and1: " << and1.signal() << ", and2: " << and2.signal()
+    std::cout << "src1: " << src1.signal()
+        << ", src2: " << src2.signal()
+        << ", src3: " << src3.signal()
+        << ", src4: " << src4.signal()
+        << ", and1: " << and1.signal()
+        << ", and2: " << and2.signal()
         << ", or1: " << or1.signal() << std::endl;
 
- 
-    src2.set(SourceState::on);
+    // Change the state of src3 and src4
+    src3.set(SourceState::on);
+    src4.set(SourceState::on);
 
-    
-    std::cout << "After setting src2 on:" << std::endl;
-    std::cout << "src1: " << src1.signal() << ", src2: " << src2.signal()
-        << ", and1: " << and1.signal() << ", and2: " << and2.signal()
+    std::cout << "After setting src3 and src4 on:" << std::endl;
+    std::cout << "src1: " << src1.signal()
+        << ", src2: " << src2.signal()
+        << ", src3: " << src3.signal()
+        << ", src4: " << src4.signal()
+        << ", and1: " << and1.signal()
+        << ", and2: " << and2.signal()
         << ", or1: " << or1.signal() << std::endl;
 
     return 0;
 }
+
