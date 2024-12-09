@@ -3,8 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\projects\\chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9C5C9F2-721C-4A94-A8AC-E87C94C72E82}|chess.vcxproj|C:\\Users\\ASUS\\Desktop\\projects\\chess\\chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F9C5C9F2-721C-4A94-A8AC-E87C94C72E82}|chess.vcxproj|solutionrelative:chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\Desktop\\projects\\chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +19,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "chess.cpp",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\projects\\chess\\chess.cpp",
-              "RelativeDocumentMoniker": "chess.cpp",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\projects\\chess\\chess.cpp",
-              "RelativeToolTip": "chess.cpp",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAQwLcAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\projects\\chess.cpp",
+              "RelativeDocumentMoniker": "..\\chess.cpp",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\projects\\chess.cpp",
+              "RelativeToolTip": "..\\chess.cpp",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-21T09:40:13.504Z",
+              "WhenOpened": "2024-11-05T17:24:08.724Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,153 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-fltk-1.3.9",
+  "creationInfo": {
+    "created": "2024-10-14T13:58:27Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.4.1"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/fltk-1.3.9.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-fltk-src",
+    "SPDXRef-Package-SPDXRef-jpeg-turbo-3.0.4",
+    "SPDXRef-Package-SPDXRef-libpng-1.6.44",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-fltk"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-fltk-src",
+      "name": "fltk",
+      "versionInfo": "1.3.9",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2023-12-09 14:02:19 UTC",
+      "licenseConcluded": "LGPL-2.0-only WITH FLTK-exception",
+      "downloadLocation": "https://www.fltk.org/pub/fltk/1.3.9/fltk-1.3.9-source.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d736b0445c50d607432c03d5ba5e82f3fba2660b10bc1618db8e077a42d9511b"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-jpeg-turbo-3.0.4",
+      "name": "jpeg-turbo",
+      "versionInfo": "3.0.4",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "IJG AND Zlib AND BSD-3-Clause",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:f85cd191b0fce773ae3d3502395ee2d56eec5be7607a95834a13d63d22181d78",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f85cd191b0fce773ae3d3502395ee2d56eec5be7607a95834a13d63d22181d78"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/jpeg-turbo@3.0.4",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-libpng-1.6.44",
+      "name": "libpng",
+      "versionInfo": "1.6.44",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "libpng-2.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/libpng/blobs/sha256:97e7780fa459489f57043430f53660e81c4bab4c0bd30b3c021ff8e1d1ae27ea",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "97e7780fa459489f57043430f53660e81c4bab4c0bd30b3c021ff8e1d1ae27ea"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/libpng@1.6.44",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "16.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-fltk",
+      "name": "fltk",
+      "versionInfo": "1.3.9",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2023-12-09 14:02:19 UTC",
+      "licenseConcluded": "LGPL-2.0-only WITH FLTK-exception",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/fltk/blobs/sha256:b1f013906d83a39cbf3154b72c0834dfe0b5fddb18f091742d3d6209f5143986",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/fltk@1.3.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b1f013906d83a39cbf3154b72c0834dfe0b5fddb18f091742d3d6209f5143986"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-jpeg-turbo-3.0.4",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-fltk"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-libpng-1.6.44",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-fltk"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-fltk",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-fltk-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-fltk-src"
+    }
+  ]
+}
